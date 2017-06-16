@@ -1,0 +1,48 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+.main{
+  width: 100%;
+  min-height: 100vh;
+  background: url('./images/background.jpg') no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+
+}
+.post{
+  width: 70%;
+  height: 100px;
+  background-color: #fff;
+  margin-bottom: 10px;
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 15px;
+  border-radius: 20px;
+  position: relative;
+}
+a{
+  color: black;
+}
+a:hover{
+  color: blue;
+}
+a:visited{
+  color: black;
+}
+nav{
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 20px;
+}
+.home-click{
+  height: 25px;
+}
